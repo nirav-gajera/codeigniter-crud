@@ -29,11 +29,6 @@
             <input class="form-control" type="text" name="title">
           </div>
 
-          <!-- <div class="form-group">
-            <label>Image</label>
-            <input type="file" name="image" class="form-control-file">
-          </div> -->
-
           <div class="form-group">
             <label>Description</label>
             <textarea class="form-control"  rows="5" name="description"></textarea>
