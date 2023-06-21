@@ -27,11 +27,6 @@ class Crud extends CI_Model
 		return $result;
 	}
 
-	// public function get_records($table)
-	// {
-	// 	$result = $this->db->get($table)->result();
-	// 	return $result;
-	// }
 
 	public function find_record_by_id($table, $id)
 	{
