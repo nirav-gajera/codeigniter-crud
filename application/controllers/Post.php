@@ -32,13 +32,6 @@ class Post extends CI_Controller
 	}
 	
 
-	// public function index() 
-	// {	
-	// 	$data['data'] = $this->crud->get_records('posts');
-	// 	$this->load->view('post/list', $data);
-	// 	$this->output->enable_profiler(FALSE);
-	// }
-
 	public function create()
 	{
 		$this->load->view('post/create');
